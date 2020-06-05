@@ -1,0 +1,44 @@
+{
+  "name": "gridjs-jquery",
+  "version": "1.0.2",
+  "description": "A jQuery wrapper for gridjs",
+  "author": {
+    "name": "Afshin Mehrabani",
+    "url": "https://gridjs.io",
+    "email": "afshin.meh@gmail.com"
+  },
+  "keywords": [
+    "grid",
+    "table",
+    "gridjs",
+    "list",
+    "filter",
+    "search",
+    "sort",
+    "pagination",
+    "jquery"
+  ],
+  "homepage": "https://gridjs.io",
+  "bugs": {
+    "url": "https://github.com/vegas-dev/vegas-nav/issues"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grid-js/gridjs-jquery"
+  },
+  "scripts": {
+    "dev": "webpack --mode development",
+    "build": "webpack"
+  },
+  "devDependencies": {
+    "eslint": "^7.1.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-merge-and-include-globally": "^2.1.24"
+  },
+  "dependencies": {
+    "gridjs": "^1.0.2",
+    "jquery": "^3.5.1"
+  }
+}
